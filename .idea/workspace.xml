@@ -95,6 +95,28 @@
               <item name="Jenkins" type="cbb8eebc:String" user="Jenkins" />
               <item name="tests" type="cbb8eebc:String" user="tests" />
             </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="C:" type="cbb8eebc:String" user="C:" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="C:" type="cbb8eebc:String" user="C:" />
+              <item name="Users" type="cbb8eebc:String" user="Users" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="C:" type="cbb8eebc:String" user="C:" />
+              <item name="Users" type="cbb8eebc:String" user="Users" />
+              <item name="Mauricio Rodriguez" type="cbb8eebc:String" user="Mauricio Rodriguez" />
+            </path>
           </expand>
           <select />
         </subPane>
