@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="TestStringMethods-20181001164351" skipped="0" tests="2" time="0.001" timestamp="2018-10-01T16:43:51">
+	<testcase classname="TestStringMethods" name="test_stop_words_content" time="0.001" timestamp="2018-10-01T16:43:51"/>
+	<testcase classname="TestStringMethods" name="test_stop_words_size" time="0.000" timestamp="2018-10-01T16:43:51"/>
+	<system-out>
+<![CDATA[179
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
