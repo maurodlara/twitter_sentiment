@@ -1,5 +1,6 @@
+
 import unittest
-import nltk
+import xmlrunner
 from nltk.corpus import stopwords
 
 class TestStringMethods(unittest.TestCase):
@@ -12,9 +13,14 @@ class TestStringMethods(unittest.TestCase):
     def test_stop_words_size(self):
         stopwords_set = set(stopwords.words("english"))
         print(len(stopwords_set))
-        self.assertEqual(200,len(stopwords_set),"Stop words size passed")
+        self.assertEqual(179,len(stopwords_set),"Stop words size passed")
        # self.assertEqual('foo'.upper(), 'FOO')
 
-
 if __name__ == '__main__':
-    unittest.main()
+
+
+    unittest.main(
+        testRunner=xmlrunner.XMLTestRunner(output='test-reports.xml'),
+        failfast=False,
+        buffer=False,
+        catchbreak=False)

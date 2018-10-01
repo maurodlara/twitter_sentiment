@@ -1,4 +1,4 @@
 [
-  "Test_Twitter_Analysis.py::TestStringMethods::test_stop_words_content",
-  "Test_Twitter_Analysis.py::TestStringMethods::test_stop_words_size"
+  "tests/Test_Twitter_Analysis.py::TestStringMethods::test_stop_words_content",
+  "tests/Test_Twitter_Analysis.py::TestStringMethods::test_stop_words_size"
 ]

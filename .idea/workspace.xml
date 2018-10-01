@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cdabea0e-59d8-42c3-ac54-550ea2f232ce" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Twitter_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Twitter_Analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Twitter_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Test_Twitter_Analysis.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/Twitter_Sentiment_Analysis.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1270">
-              <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+              <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -27,12 +29,12 @@
         </entry>
       </file>
       <file leaf-file-name="Test_Twitter_Analysis.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test_Twitter_Analysis.py">
+        <entry file="file://$PROJECT_DIR$/tests/Test_Twitter_Analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="221">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#1#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,6 +49,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>C:\Users\Mauricio Rodriguez\Documents\Projects\Jenkins</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -55,6 +62,7 @@
       <list>
         <option value="$PROJECT_DIR$/Twitter_Sentiment_Analysis.py" />
         <option value="$PROJECT_DIR$/Test_Twitter_Analysis.py" />
+        <option value="$PROJECT_DIR$/tests/Test_Twitter_Analysis.py" />
       </list>
     </option>
   </component>
@@ -66,7 +74,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -81,8 +89,28 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Jenkins" type="cbb8eebc:String" user="Jenkins" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Jenkins" type="cbb8eebc:String" user="Jenkins" />
+              <item name="tests" type="cbb8eebc:String" user="tests" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mauricio Rodriguez\Documents\Projects\Jenkins\tests" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -120,13 +148,27 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;Test_Twitter_Analysis.TestStringMethods&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for tests.Test_Twitter_Analysis.TestStringMethods" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Jenkins" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.Test_Twitter_Analysis.TestStringMethods&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test in Test_Twitter_Analysis.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -140,7 +182,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_Twitter_Analysis.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/Test_Twitter_Analysis.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
@@ -151,8 +193,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.py.test for Test_Twitter_Analysis.TestStringMethods" />
-        <item itemvalue="Python.Twitter_Sentiment_Analysis" />
         <item itemvalue="Python tests.py.test in Test_Twitter_Analysis.py" />
+        <item itemvalue="Python tests.py.test for tests.Test_Twitter_Analysis.TestStringMethods" />
+        <item itemvalue="Python.Twitter_Sentiment_Analysis" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +222,27 @@
     <history-entry file="py_test_for_Test_Twitter_Analysis_TestStringMethods - 2018.10.01 at 12h 59m 43s.xml">
       <configuration name="py.test for Test_Twitter_Analysis.TestStringMethods" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_Test_Twitter_Analysis_py - 2018.10.01 at 14h 35m 36s.xml">
+      <configuration name="py.test in Test_Twitter_Analysis.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_Test_Twitter_Analysis_py - 2018.10.01 at 15h 47m 42s.xml">
+      <configuration name="py.test in Test_Twitter_Analysis.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_Test_Twitter_Analysis_TestStringMethods - 2018.10.01 at 15h 51m 45s.xml">
+      <configuration name="py.test for Test_Twitter_Analysis.TestStringMethods" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_Test_Twitter_Analysis_TestStringMethods - 2018.10.01 at 15h 52m 15s.xml">
+      <configuration name="py.test for Test_Twitter_Analysis.TestStringMethods" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_Test_Twitter_Analysis_TestStringMethods - 2018.10.01 at 15h 52m 49s.xml">
+      <configuration name="py.test for Test_Twitter_Analysis.TestStringMethods" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_Test_Twitter_Analysis_TestStringMethods - 2018.10.01 at 15h 56m 25s.xml">
+      <configuration name="py.test for Test_Twitter_Analysis.TestStringMethods" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_Test_Twitter_Analysis_TestStringMethods - 2018.10.01 at 15h 56m 49s.xml">
+      <configuration name="py.test for Test_Twitter_Analysis.TestStringMethods" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -190,14 +254,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2528978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3172505" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50033045" side_tool="true" visible="true" weight="0.47591242" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42841288" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966952" visible="true" weight="0.47591242" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.2508324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -219,19 +283,19 @@
     <entry file="file://$PROJECT_DIR$/Twitter_Sentiment_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1270">
-          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Twitter_Analysis.py">
+    <entry file="file://$PROJECT_DIR$/tests/Test_Twitter_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="221">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#1#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
