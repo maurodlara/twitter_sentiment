@@ -5,7 +5,7 @@ import nltk
 
 
 class TestStringMethods(unittest.TestCase):
-    #Tests Unit
+
     def test_stop_words_content(self):
         stopwords_set = set(stopwords.words("english"))
         self.assertIn("against", stopwords_set, "Stop words content passed")
@@ -15,7 +15,7 @@ class TestStringMethods(unittest.TestCase):
     def test_stop_words_size(self):
         stopwords_set = set(stopwords.words("english"))
         print(len(stopwords_set))
-        self.assertEqual(179, len(stopwords_set), "Stop words size passed")
+        self.assertEqual(180, len(stopwords_set), "Stop words size passed")
     # self.assertEqual('foo'.upper(), 'FOO')
 
 

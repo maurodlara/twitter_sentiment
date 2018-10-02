@@ -1,0 +1,64 @@
+************* Module Twitter_Sentiment_Analysis
+C:  3, 0: Line too long (105/100) (line-too-long)
+C:  9, 0: Exactly one space required after comma
+from wordcloud import WordCloud,STOPWORDS
+                               ^ (bad-whitespace)
+C: 16, 0: Exactly one space required after comma
+data = data[['text','sentiment']]
+                   ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+train, test = train_test_split(data,test_size = 0.1)
+                                   ^ (bad-whitespace)
+C: 19, 0: No space allowed around keyword argument assignment
+train, test = train_test_split(data,test_size = 0.1)
+                                              ^ (bad-whitespace)
+C: 36, 0: Wrong continued indentation (remove 1 space).
+                             ])
+                            |^ (bad-continuation)
+C: 41, 0: Wrong continued indentation (remove 1 space).
+                          ).generate(cleaned_word)
+                         |^ (bad-continuation)
+C: 98, 0: Exactly one space required after comma
+training_set = nltk.classify.apply_features(extract_features,tweets)
+                                                            ^ (bad-whitespace)
+C:106, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:111, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:116, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Module name "Twitter_Sentiment_Analysis" doesn't conform to snake_case naming style (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 14, 0: Constant name "data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 16, 0: Constant name "data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 19, 0: Constant name "train" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 19, 7: Constant name "test" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 21, 0: Constant name "train" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 23, 0: Constant name "train_pos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 24, 0: Constant name "train_pos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 25, 0: Constant name "train_neg" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 26, 0: Constant name "train_neg" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 29, 0: Missing function docstring (missing-docstring)
+W: 29,19: Redefining name 'data' from outer scope (line 14) (redefined-outer-name)
+C: 54, 0: Constant name "tweets" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 55, 0: Constant name "stopwords_set" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 67, 0: Constant name "test_pos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 68, 0: Constant name "test_pos" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 69, 0: Constant name "test_neg" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 70, 0: Constant name "test_neg" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 78, 0: Missing function docstring (missing-docstring)
+W: 78,24: Redefining name 'tweets' from outer scope (line 54) (redefined-outer-name)
+W: 79, 4: Redefining built-in 'all' (redefined-builtin)
+W: 80,16: Unused variable 'sentiment' (unused-variable)
+C: 84, 0: Missing function docstring (missing-docstring)
+C: 88, 0: Constant name "w_features" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 90, 0: Missing function docstring (missing-docstring)
+C: 98, 0: Constant name "training_set" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 99, 0: Constant name "classifier" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:101, 0: Constant name "neg_cnt" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:102, 0: Constant name "pos_cnt" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:  1, 0: Unused numpy imported as np (unused-import)
+W:  7, 0: Unused SklearnClassifier imported from nltk.classify (unused-import)
+W: 12, 0: Unused check_output imported from subprocess (unused-import)
+C: 12, 0: standard import "from subprocess import check_output" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 3.84/10 (previous run: 3.84/10, +0.00)
+
